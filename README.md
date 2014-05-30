@@ -8,11 +8,6 @@ After this exercise, a student will be able to:
 * Write programs using basic ruby concepts from previous knowledge and information found in reference material
 * Use high level, [acceptance tests](http://www.extremeprogramming.org/rules/functionaltests.html) to guide development
 
-## XP practices learned
-
-* Whole Team
-* Test First Programming
-
 ## Tech skill learned
 
 * Ruby language constructs
