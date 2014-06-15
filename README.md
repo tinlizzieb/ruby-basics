@@ -31,7 +31,7 @@ After this exercise, a student will be able to:
 
 **Also see the Learning Resources document in the Google Drive.**
 
-## Demo
+## Exercise
 
 Greetings
 
