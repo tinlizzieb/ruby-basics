@@ -38,6 +38,7 @@ Greetings
 1. Import and prioritize the stories. They are located in this repository named `stories.csv`
 1. Fork and clone this repo
 1. Create a submission on students
-1. Start the story
+1. Start a story
 1. Commit and push
 1. Finish the story
+1. Repeat 4-6
