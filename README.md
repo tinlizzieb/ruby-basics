@@ -6,12 +6,11 @@ After this exercise, a student will be able to:
 
 * Run ruby files from the command line
 * Write programs using basic ruby concepts from previous knowledge and information found in reference material
-* Use high level, [acceptance tests](http://www.extremeprogramming.org/rules/functionaltests.html) to guide development
+* Use tracker to prioritize stories
 
 ## Tech skill learned
 
 * Ruby language constructs
-* Running acceptance tests from the command line
 * Running code using irb to try things out
 * Running code from a file at the command line
 
@@ -36,22 +35,12 @@ After this exercise, a student will be able to:
 
 Greetings
 
-1. Import and prioritize the stories
-1. Fork and clone the repo
+1. Import and prioritize the [stories](http://students.gschool.it/trackerStories/rubyBasicsStories.cshttp://students.gschool.it/trackerStories/rubyBasicsStories.csv)
+1. Fork and clone this repo
+1. Create a submission on students
 1. Start the story
-1. Make the spec fail
-1. Write a program that asks a user for their name by printing the prompt "What is your name?".
-1. Make the program print out the text "Hello [enteredName]!" where [enteredName] is replaced by the
-name entered above.
-1. Run the spec
 1. Commit and push
 1. Finish the story
-
-## Tracking your work
-
-If you'd like to track your work, you can
-import the related Tracker stories downloaded from
-[here](http://students.gschool.it/trackerStories/rubyBasicsStories.csv) into your project.
 
 ## Homework
 
