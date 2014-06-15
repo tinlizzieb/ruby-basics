@@ -35,7 +35,7 @@ After this exercise, a student will be able to:
 
 Greetings
 
-1. Import and prioritize the [stories](http://students.gschool.it/trackerStories/rubyBasicsStories.cshttp://students.gschool.it/trackerStories/rubyBasicsStories.csv)
+1. Import and prioritize the stories. They are located in this repository named `stories.csv`
 1. Fork and clone this repo
 1. Create a submission on students
 1. Start the story
