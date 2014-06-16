@@ -22,14 +22,10 @@ After this exercise, a student will be able to:
     * [Learn to Program Website](http://pine.fm/LearnToProgram/)
     * [Learn Ruby the Hard Way](http://ruby.learncodethehardway.org/) - when you read "function" substitute the word "method"
     * [Ruby Essentials](http://www.techotopia.com/index.php/Ruby_Essentials)
-    * [Pickaxe Book](http://ruby-doc.com/docs/ProgrammingRuby/)
     * [Ruby Language Documentation page](https://www.ruby-lang.org/en/documentation/) - a list of of other references
 
-* Ebooks/Physical Books for Purchase
-    * [Learn to Program](http://pragprog.com/book/ltp2/learn-to-program) - not a complete reference but great for beginners. Suited for reading cover to cover.
-    * [Pickaxe Book](http://pragprog.com/book/ruby4/programming-ruby-1-9-2-0) - a pretty complete language reference book. Not meant for reading cover to cover.
 
-**Also see the Learning Resources document in the Google Drive.**
+**Also see the Learning Resources document in the Curriculum Repo.**
 
 ## Exercise
 
