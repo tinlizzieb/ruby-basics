@@ -19,7 +19,8 @@ end
 if person
   date_of_birth = person["date_of_birth"].split("/")
   date_of_birth = Time.new(date_of_birth[0], date_of_birth[1], date_of_birth[2])
-
-  age = ((Time.now - date_of_birth) / 31536000).floor
+  seconds_in_year = 31536000
+  
+  age = ((Time.now - date_of_birth) / seconds_in_year).floor
   puts "#{person["first_name"]} #{person["last_name"]} is #{age} years old"
 end
