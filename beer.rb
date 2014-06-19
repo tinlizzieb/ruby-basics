@@ -13,7 +13,7 @@ loop do
     exit(1)
   end
 
-  number_of_times_to_sing = command.scan(/\d+/).first.to_i
+  number_of_times_to_sing = command.scan(/-?\d+/).first.to_i
 
   if number_of_times_to_sing < 1
     puts "You did not enter a positive number!"
