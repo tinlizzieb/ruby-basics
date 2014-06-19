@@ -1,27 +1,27 @@
-def roman_numeral(decimal)
-  roman_numeral_lookup = {
-    1 => "I",
-    4 => "IV",
-    5 => "V",
-    9 => "IX",
-    10 => "X",
-    40 => "XL",
-    50 => "L",
-    90 => "XC",
-    100 => "C",
-    400 => "CD",
-    500 => "D",
-    900 => "CM",
-    1000 => "M"
-  }
+ROMAN_NUMERAL_MAPPING = {
+  1 => "I",
+  4 => "IV",
+  5 => "V",
+  9 => "IX",
+  10 => "X",
+  40 => "XL",
+  50 => "L",
+  90 => "XC",
+  100 => "C",
+  400 => "CD",
+  500 => "D",
+  900 => "CM",
+  1000 => "M"
+}
 
+def roman_numeral(decimal)
   return_value = []
-  numbers = roman_numeral_lookup.keys.sort.reverse
+  numbers = ROMAN_NUMERAL_MAPPING.keys.sort.reverse
 
   while decimal > 0
     largest_valid_number = numbers.find { |number| decimal - number >= 0 }
 
-    return_value.push(roman_numeral_lookup[largest_valid_number])
+    return_value.push(ROMAN_NUMERAL_MAPPING[largest_valid_number])
 
     decimal = decimal - largest_valid_number
   end
