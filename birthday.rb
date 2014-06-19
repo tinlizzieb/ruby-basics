@@ -10,7 +10,7 @@ CSV.foreach("birthday_data.csv", :headers => true) do |row|
   last_name = row["last_name"]
   full_name = "#{first_name} #{last_name}"
 
-  if [full_name, last_name, full_name].any? { |n| name == n }
+  if [first_name, last_name, full_name].any? { |n| name == n }
     person = row
     break
   end
